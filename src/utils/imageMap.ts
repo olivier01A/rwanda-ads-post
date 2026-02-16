@@ -1,0 +1,14 @@
+export const imageMap: Record<string, string> = {
+  'iphone-14-pro': 'https://images.unsplash.com/photo-1677144646095-ecd95d06cd71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpcGhvbmUlMjAxNCUyMHByb3xlbnwxfHx8fDE3NzAyMDQ3NTV8MA&ixlib=rb-4.1.0&q=80&w=1080',
+  'toyota-landcruiser': 'https://images.unsplash.com/photo-1630826362226-a509049bcdbf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0b3lvdGElMjBsYW5kY3J1aXNlcnxlbnwxfHx8fDE3NzAyMDQ3NTV8MA&ixlib=rb-4.1.0&q=80&w=1080',
+  'modern-apartment': 'https://images.unsplash.com/photo-1484154218962-a197022b5858?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBhcGFydG1lbnR8ZW58MXx8fHwxNzcwMTk1NjEzfDA&ixlib=rb-4.1.0&q=80&w=1080',
+  'samsung-tv': 'https://images.unsplash.com/photo-1601944179066-29786cb9d32a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzYW1zdW5nJTIwdHZ8ZW58MXx8fHwxNzcwMjA0NzU2fDA&ixlib=rb-4.1.0&q=80&w=1080',
+  'driver-job': 'https://images.unsplash.com/photo-1512592076566-0e7a2046087e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkcml2ZXIlMjBqb2J8ZW58MXx8fHwxNzcwMjA0NzU2fDA&ixlib=rb-4.1.0&q=80&w=1080',
+  'macbook-pro': 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtYWNib29rJTIwcHJvfGVufDF8fHx8MTc3MDIwNDc1Nnww&ixlib=rb-4.1.0&q=80&w=1080',
+  'office-space': 'https://images.unsplash.com/photo-1631193816258-28b44b21e78b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvZmZpY2UlMjBzcGFjZXxlbnwxfHx8fDE3NzAyMDQ3NTd8MA&ixlib=rb-4.1.0&q=80&w=1080',
+  'honda-crv': 'https://images.unsplash.com/photo-1681697390363-1142eb46b76d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxob25kYSUyMGNydnxlbnwxfHx8fDE3NzAyMDQ3NTd8MA&ixlib=rb-4.1.0&q=80&w=1080',
+  'photographer-service': 'https://images.unsplash.com/photo-1735052709798-2abcc8c0d6e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwaG90b2dyYXBoZXIlMjBzZXJ2aWNlfGVufDF8fHx8MTc3MDIwNDc1N3ww&ixlib=rb-4.1.0&q=80&w=1080',
+  'leather-sofa': 'https://images.unsplash.com/photo-1578112010316-b44c50d27b2b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsZWF0aGVyJTIwc29mYXxlbnwxfHx8fDE3NzAyMDQ3NTh8MA&ixlib=rb-4.1.0&q=80&w=1080',
+  'avocados': 'https://images.unsplash.com/photo-1601039641847-7857b994d704?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhdm9jYWRvc3xlbnwxfHx8fDE3NzAxMzcxNjZ8MA&ixlib=rb-4.1.0&q=80&w=1080',
+  'designer-handbags': 'https://images.unsplash.com/photo-1596552639068-99bd471b579c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZXNpZ25lciUyMGhhbmRiYWdzfGVufDF8fHx8MTc3MDIwNDc1OHww&ixlib=rb-4.1.0&q=80&w=1080'
+};
