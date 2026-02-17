@@ -1,6 +1,5 @@
 import { Link } from 'react-router';
 import { Facebook, Twitter, Instagram, Mail, Phone, MapPin } from 'lucide-react';
-import logoImage from 'figma:asset/b51b96f38e43626bdfe75b5a3b82ea83a63f4a6b.png';
 
 export default function Footer() {
   return (
@@ -10,11 +9,12 @@ export default function Footer() {
           {/* About */}
           <div>
             <div className="mb-4">
-              <img 
-                src={logoImage} 
-                alt="Rwanda Ads Post" 
-                className="h-20 w-auto"
-              />
+              <div className="flex items-center space-x-2 w-fit">
+                <div className="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center">
+                  <span className="text-white font-bold text-xl">RA</span>
+                </div>
+                <span className="text-xl font-bold">Rwanda Ads</span>
+              </div>
             </div>
             <p className="text-gray-400 text-sm mb-4">
               Rwanda's leading platform to buy and sell anything. Post your ads for free and reach thousands of buyers across the country.
