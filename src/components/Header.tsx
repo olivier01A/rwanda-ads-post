@@ -1,6 +1,7 @@
 import { Link, useNavigate } from 'react-router';
 import { Search, Menu, User, Home, List, LayoutDashboard } from 'lucide-react';
 import { useState } from 'react';
+import logoImage from '@assets/b51b96f38e43626bdfe75b5a3b82ea83a63f4a6b.png';
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetDescription, SheetTrigger } from './ui/sheet';
 
 export default function Header() {
@@ -29,12 +30,11 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-green-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">RA</span>
-              </div>
-              <span className="hidden sm:inline text-lg font-bold text-gray-900">Rwanda Ads</span>
-            </div>
+            <img 
+              src={logoImage} 
+              alt="Rwanda Ads Post" 
+              className="h-16 md:h-20 w-auto"
+            />
           </Link>
 
           {/* Search Bar - Desktop */}
