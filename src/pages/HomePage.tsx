@@ -35,7 +35,7 @@ export default function HomePage() {
                 value={heroSearch}
                 onChange={(e) => setHeroSearch(e.target.value)}
                 placeholder="What are you looking for?"
-                className="flex-1 h-14 sm:h-16 px-6 text-gray-900 rounded-lg sm:rounded-l-lg sm:rounded-r-none focus:outline-none text-base sm:text-lg"
+                className="flex-1 h-14 sm:h-16 px-6 text-gray-900 rounded-xl sm:rounded-l-xl sm:rounded-r-none border border-white focus:outline-none text-base sm:text-lg"
               />
               <button
                 type="submit"
